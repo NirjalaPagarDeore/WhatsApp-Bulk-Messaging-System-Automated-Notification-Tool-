@@ -1,0 +1,165 @@
+
+    body {
+      background-color: #f8f9fa;
+    }
+    .card {
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    .card img {
+      height: 180px;
+      object-fit: cover;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+
+/* Card */
+.customer-page .card {
+  border-radius: 15px;
+  overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Heading */
+.customer-page .heading-style {
+  color: #1ed0da;
+}
+
+
+.customer-page .btn-outline-primary {
+  border-radius: 8px;
+  padding: 6px 14px;
+}
+
+.customer-page .btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* Table Head (New Attractive Color) */
+.customer-page .custom-table-head {
+  background: linear-gradient(45deg, #36d1dc, #5b86e5);
+  color: white;
+  font-weight: bold;
+}
+
+.customer-page .custom-table-head th {
+  border: none;
+  padding: 12px;
+}
+
+/* Table Body */
+.customer-page .table td,
+.customer-page .table th {
+  vertical-align: middle;
+}
+
+/* Row Hover Effect */
+.customer-page .table tbody tr {
+  transition: 0.3s;
+}
+
+.customer-page .table tbody tr:hover {
+  background-color: #e6f7ff;
+  transform: scale(1.01);
+}
+
+/* Zebra Striping (Alternate rows) */
+.customer-page .table tbody tr:nth-child(even) {
+  background-color: #f9fcff;
+}
+
+/* Table Shadow Effect */
+.customer-page .card {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* table footer */
+/* Table Footer */
+.customer-page tfoot {
+  background: linear-gradient(45deg, #5b86e5, #36d1dc);
+  color: white;
+  font-weight: bold;
+}
+
+.customer-page tfoot th {
+  padding: 12px;
+  border: none;
+}
+
+/* action button style */
+.customer-page .btn i {
+  margin: 0 2px;
+}
+
+.customer-page .btn:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+/* heading */
+    .heading-style {
+  color: #2ea1c4;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.heading-style::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: #3e5372;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 5px;
+}
+  
+
+/* 🔹 Mobile Responsive */
+@media (max-width: 768px) {
+
+  /* Card padding */
+  .customer-page .card {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  /* Heading size */
+  .heading-style {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Table scroll (VERY IMPORTANT) */
+  .customer-page .table-responsive {
+    overflow-x: auto;
+  }
+
+  /* Table font size smaller */
+  .customer-page table {
+    font-size: 12px;
+  }
+
+  /* Reduce padding */
+  .customer-page .table th,
+  .customer-page .table td {
+    padding: 8px;
+    white-space: nowrap;
+  }
+
+  /* Buttons smaller */
+  .customer-page .btn {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  /* Icons adjust */
+  .customer-page .btn i {
+    font-size: 12px;
+  }
+}
