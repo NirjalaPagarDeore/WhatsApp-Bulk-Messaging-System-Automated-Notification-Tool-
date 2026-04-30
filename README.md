@@ -22,8 +22,4 @@ This project is a WhatsApp Bulk Messaging System that enables users to send mess
 
 ---
 
-## ⚙️ Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
